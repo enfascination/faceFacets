@@ -67,8 +67,8 @@ def doubleHalves(image, x):
 
 
 source_directory = "./"
-input_directory = "./example/"
-output_directory = "./doubles/"
+input_directory = "./input/"
+output_directory = "./output/"
 hints_file = "halves_sample.csv"
 
 # process files of choice, with user computed halfpoints
