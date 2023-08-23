@@ -10,15 +10,15 @@ During the manual step of finding the middle of the face in the photograph, I te
 After processing, you know that you found a good split if the neck is equally thick in both facets. If it is thinner in one half than the other, there is a chance that the subject wasn't facing 12 o'clock to the camera, or, better, wasn't aligned on top of their neck.
 
 ## Manifest:
-* process.py
+* `process.py`
   * the main script. In shell run `python process.py`.  Place files into input, enter each into the `halves.csv` datafile, and run. You possibly have to run `pip install Pillow` first as a one-time thing.
-* README.md
+* `README.md`
   * This file  
-* input/
+* `input/`
   * where to put files to be transformed
-* output/
+* `output/`
   * where transformed files end up
-* halves_sample.csv
+* `halves_sample.csv`
   * data file for entering the one human-computed component of this pipeline, the x coordinate of pixels on the vertical halfway point of the face. This could be automated with face key-point recognition but I kept things simple, since this part goes fast enough for fewer than hundreds of images.
-* demo.xcf
-  * a GIMP project file with layers composing the halves of a face to illustrate the concept visually. Turn them on an off to see the variations.
+* `demo.xcf`
+  * a GIMP project file with layers composing the halves of a face to illustrate the concept visually. Turn them on an off to see the variations. GIMP is the free open Photoshop alternative, easy to install and pull up.
